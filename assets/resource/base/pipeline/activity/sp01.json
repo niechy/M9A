@@ -5,7 +5,7 @@
             "HomeFlagForSp_01",
             "[JumpBack]HomeButton",
             "[JumpBack]BackButton"
-        ],
+        ]
     },
     "HomeFlagForSp_01": {
         "recognition": {
@@ -95,7 +95,7 @@
             "HomeFlag",
             "[JumpBack]HomeButton",
             "[JumpBack]BackButton"
-        ],
+        ]
     },
     "Sub_SailingRecord": {
         "recognition": {
@@ -244,7 +244,10 @@
                 "count": 2000
             }
         },
-        "next": ["FlagInSailingRecordBoat", "[JumpBack]SailingRecordSelectNextStep"],
+        "next": [
+            "FlagInSailingRecordBoat",
+            "[JumpBack]SailingRecordSelectNextStep"
+        ]
     },
     "FlagInSailingRecordBoat": {
         "recognition": {
@@ -478,7 +481,7 @@
             "[JumpBack]ObtainedAwards",
             "[JumpBack]ClosePage",
             "[JumpBack]ClickHomeCount"
-        ],
+        ]
     },
     "Sp01MessagersChoose": {
         "recognition": {
@@ -633,7 +636,7 @@
             "[JumpBack]RPSNext",
             "[JumpBack]Arms",
             "[JumpBack]ActionPoints"
-        ],
+        ]
     },
     "SkipBattle": {
         "recognition": {
@@ -1050,7 +1053,7 @@
             "[JumpBack]Sp01DataCollect2",
             "Sp01DataCollect3",
             "[JumpBack]ObtainedAwards"
-        ],
+        ]
     },
     "Sp01DataCollect2": {
         "recognition": {

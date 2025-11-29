@@ -29,7 +29,7 @@
             "ActivityMainAnecdoteFlag",
             "[JumpBack]ActivityMainSelectAnecdote",
             "[JumpBack]SwipeDownForAnecdote"
-        ],
+        ]
     },
     "ActivityMainSelectAnecdote": {
         "recognition": {
