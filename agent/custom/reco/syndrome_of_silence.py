@@ -29,7 +29,7 @@ class SOSSelectEncounterOptionFindSelected(CustomRecognition):
             # 放大镜图标的 roi，扩大一点，方便后面颜色匹配
             Magnifier_rois = [
                 [i.box[0] - 10, i.box[1] - 10, i.box[2] + 20, i.box[3] + 12]
-                for i in reco_detail.filterd_results
+                for i in reco_detail.filtered_results
             ]
         else:
             return CustomRecognition.AnalyzeResult(box=None, detail="")
@@ -73,7 +73,7 @@ class SOSSelectEncounterOptionList(CustomRecognition):
             # 放大镜图标的 roi，扩大一点
             Magnifier_rois = [
                 [i.box[0] - 10, i.box[1] - 10, i.box[2] + 20, i.box[3] + 12]
-                for i in reco_detail.filterd_results
+                for i in reco_detail.filtered_results
             ]
         else:
             return CustomRecognition.AnalyzeResult(box=None, detail="")

@@ -239,12 +239,12 @@ class TeamSelect(CustomAction):
                     time.sleep(2)  # 等待界面稳定
                     img = context.tasker.controller.post_screencap().wait().get()
                     reco_result = context.run_recognition("TeamListEditRoi", img)
-                    if reco_result is None or not reco_result.filterd_results:
+                    if reco_result is None or not reco_result.filtered_results:
                         logger.error("未识别到成员队列")
                         return CustomAction.RunResult(success=False)
                     else:
                         # 识别到每个队伍左上角标志，获取每个队伍的名称和按键位置
-                        team_rois = reco_result.filterd_results
+                        team_rois = reco_result.filtered_results
                         team_name_rois, team_confirm_rois = [], []
                         for team_roi in team_rois:
                             x, y, w, h = team_roi.box

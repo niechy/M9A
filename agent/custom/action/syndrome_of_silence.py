@@ -51,10 +51,10 @@ class SOSSelectNode(CustomAction):
         # 检查识别结果中在期望列表中的结果，保存截图用于调试
         expected_indices = [1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12]
         score_threshold = 0.6
-        if argv.reco_detail.filterd_results:
+        if argv.reco_detail.filtered_results:
             expected_results = [
                 r
-                for r in argv.reco_detail.filterd_results
+                for r in argv.reco_detail.filtered_results
                 if isinstance(r, NeuralNetworkDetectResult)
                 and r.cls_index in expected_indices
                 and r.score < score_threshold
