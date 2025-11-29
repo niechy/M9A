@@ -211,9 +211,7 @@
         "action": {
             "type": "Click"
         },
-        "next": [
-            "SwipeLeftAndFindStage"
-        ]
+        "next": ["SwipeLeftAndFindStage"]
     },
     "ResourceChapterLabel": {
         "recognition": {
@@ -265,9 +263,7 @@
         "action": {
             "type": "Click"
         },
-        "next": [
-            "SwipeLeftAndFindStage"
-        ]
+        "next": ["SwipeLeftAndFindStage"]
     },
     "ResourceChapter_MA": {
         "doc": "铸币美学",
@@ -331,9 +327,7 @@
         "action": {
             "type": "Click"
         },
-        "next": [
-            "SwipeLeftAndFindStage"
-        ]
+        "next": ["SwipeLeftAndFindStage"]
     },
     "ResourceChapter_Psychube07Enter": {
         "recognition": {
@@ -352,9 +346,7 @@
         "action": {
             "type": "Click"
         },
-        "next": [
-            "SwipeLeftAndFindStage"
-        ]
+        "next": ["SwipeLeftAndFindStage"]
     },
     "ResourceChapter_NoFreePsychube07": {
         "recognition": {
