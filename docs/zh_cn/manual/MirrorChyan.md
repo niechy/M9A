@@ -25,6 +25,6 @@ Mirror酱是一个第三方应用分发平台，让开源应用的更新更简�
 3. 下载 M9A 全量包
 [下载链接](https://mirrorchyan.com/zh/projects?rid=M9A&source=m9agh-md2)
 4. 订单转换（兑换码兑换也在这里）
-[订单转换](https://mirrorchyan.com/zh/transfer)，左边放旧订单号/兑换码，右边放要转移到的新订单号，以此将剩余有效时间转换到新订单号上。
+[订单转换](https://mirrorchyan.com/zh/transfer)，左边放新CDK/兑换码，右边放要转移到的原CDK，以此将剩余有效时间转换到原CDK上。
 5. 交流反馈
 [Mirror酱使用交流反馈](https://pd.qq.com/g/MirrorChyan)
