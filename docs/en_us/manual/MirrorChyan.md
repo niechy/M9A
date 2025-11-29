@@ -25,6 +25,5 @@ Some MaaFramework generic UIs, such as [MFAAvalonia](https://github.com/SweetSme
 3. Download the full M9A package
     [Download link](https://mirrorchyan.com/en/projects?rid=M9A&source=m9agh-enmd2)
 4. Order Transfer (Redemption code exchange is also here)
-    [Order Transfer](https://mirrorchyan.com/en/transfer). Enter the old order number/redemption code on the left, and the new order number to transfer to on the right. This transfers the remaining validity period to the new order number.
-5. Communication and Feedback
+    [Order Transfer](https://mirrorchyan.com/en/transfer). Enter the new CDK/redemption code on the left and the original CDK to be transferred to on the right, thereby converting the remaining valid time to the original CDK.
     [MirrorChyan Usage Communication and Feedback](https://pd.qq.com/g/MirrorChyan) (QQ Channel)
